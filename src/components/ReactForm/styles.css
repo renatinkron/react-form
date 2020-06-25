@@ -1,0 +1,34 @@
+.ReactForm__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem;
+}
+
+.ReactForm__form > input,
+.ReactForm__form > select {
+  margin: 0.3rem;
+  padding: 0.5rem;
+  background-color: white;
+  border: solid thin rgba(0, 0, 0, 0.4);
+  border-radius: 0.3rem;
+}
+
+.ReactForm__form > input:active,
+.ReactForm__form > input:focus,
+.ReactForm__form > select:active,
+.ReactForm__form > select:focus {
+  outline: dashed thin #00ccff;
+  outline-offset: 0.2rem;
+}
+
+.ReactForm__form > .check {
+  display: flex;
+  align-items: center;
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+
+.ReactForm__form > .check > label {
+  margin-left: 0.5rem;
+}
